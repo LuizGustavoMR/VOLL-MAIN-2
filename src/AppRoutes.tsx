@@ -10,7 +10,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<BasePagina />}>
-                    <Route index path="/home" element={<DashBoard/>}/>
+                    <Route index element={<PaginaInicial/>}/>
                     <Route path="/dashboard" element={<DashBoard />} />
                 </Route>
             </Routes>
